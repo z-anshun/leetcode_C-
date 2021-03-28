@@ -48,11 +48,3 @@ public:
         }
     }
 };
-
-int main() {
-
-    Solution s;
-    vector<string> strs;
-    strs = {"10", "0001", "111001", "1", "0"};
-    std::cout << s.findMaxForm(strs, 5, 3) << std::endl;
-}
